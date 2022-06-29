@@ -1,0 +1,132 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Images/money-2696219.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color:darkblue;
+}
+.description p{
+	color:darkmagenta;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+}
+
+.m1-cotainer {
+    margin: 30px 0;
+    top:10%;
+    left: 38%;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding: 4px 18px;
+    
+	
+}
+.m1-cotainer h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color:#4CAF50;
+}
+.form-input {
+	text-align: center;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 5px;
+    border-width: 2px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+    
+.m1-cotainer select {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        border-radius: 8px;
+        width: 307px;
+        height: 30px;
+        margin-bottom: 6px;
+        font-size: 15px;
+        padding: 3px;
+        border-width: 2px;
+
+    }
+
+::placeholder {
+    color:black;
+}
+.button {
+    margin-top: 6px;
+    display: block;
+    padding: 8px 34px;
+    margin-left: 30%;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:darkblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    text-justify: auto;
+  }
+  
+  .button:hover {background-color:darkmagenta}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .contact-icon {
+	color:darkblue;
+	padding: 2px;
+    position: relative;
+    
+    
+}
+
+.contact-icon:hover{
+	color:gray;
+        }
+
+/* Footer */
+    .footer{
+        position: relative;
+        top: 590px;
+        text-align:center;
+        
+
+    }
+
+.footer-description{
+	color:darkblue;
+	font-size: 18px;
+    text-align: center;
+    top:550px;
+}
+      
